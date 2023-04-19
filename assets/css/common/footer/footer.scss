@@ -1,0 +1,32 @@
+
+.footer{
+    max-width: 1400px;
+    margin: 0 auto;
+    margin-top: 30px;
+    padding: 1rem 0 2rem 0;
+    img{
+        width: 120px;
+    }
+    ul{
+        list-style: none;
+        padding: 0;
+        color: #595b5c;
+        li{
+            margin-top: 15px;
+        }
+        a{
+            color: #595b5c;
+            text-decoration: none;
+            span{
+                margin-left: 10px;
+            }
+        }
+        
+    }
+    .companyTitle{
+        margin-top: 20px;
+        font-weight: bold;
+        color: #15b4c9;
+    }
+    
+}

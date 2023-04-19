@@ -1,0 +1,29 @@
+.footer {
+  max-width: 1400px;
+  margin: 0 auto;
+  margin-top: 30px;
+  padding: 1rem 0 2rem 0;
+}
+.footer img {
+  width: 120px;
+}
+.footer ul {
+  list-style: none;
+  padding: 0;
+  color: #595b5c;
+}
+.footer ul li {
+  margin-top: 15px;
+}
+.footer ul a {
+  color: #595b5c;
+  text-decoration: none;
+}
+.footer ul a span {
+  margin-left: 10px;
+}
+.footer .companyTitle {
+  margin-top: 20px;
+  font-weight: bold;
+  color: #15b4c9;
+}/*# sourceMappingURL=footer.css.map */

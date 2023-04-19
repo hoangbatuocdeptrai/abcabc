@@ -1,0 +1,101 @@
+
+.container {
+    margin: 0;
+}
+
+header {
+    //giảm độ tối của ảnh
+    background: url(/assets/images/bg-banner-2.jpg) rgba(134, 134, 134, 0.445);
+    background-size: cover;
+    background-blend-mode: multiply;
+    height: 950px;
+    display: flex;
+}
+
+.abc {
+    width: 100%;
+
+    height: 70px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    // background-color: rgb(74, 151, 151);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    z-index: 9999;
+    box-shadow: none;
+
+    .abcabc {
+        max-width: 1400px;
+        margin: auto;
+
+    }
+
+    .img1 {
+        width: 200px;
+        line-height: 70px;
+        position: relative;
+    }
+
+    #navbarNav {
+        .navbar-nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            height: 60px;
+
+            .nav-item {
+                margin: 8px;
+
+                .a {
+                    color: #fff;
+                    position: relative;
+
+                    &:hover {
+                        color: brown;
+
+                    }
+
+                    &:before {
+                        content: '';
+                        position: absolute;
+                        width: 100%;
+                        height: 2px;
+                        background: #fff;
+                        bottom: 0;
+                        left: 0;
+                        transition: all .3s;
+                        opacity: 0;
+                        visibility: hidden;
+                        transition: all ease-in .5s;
+                    }
+
+                    &:hover:before {
+                        opacity: 1;
+                        visibility: visible;
+                    }
+
+                }
+            }
+        }
+    }
+
+    .headerRight {
+        line-height: 70px;
+
+        img {
+            width: 30px;
+            margin-right: 10px;
+        }
+
+        button {
+            border-radius: 10px;
+            border: 1px solid #fff;
+        }
+
+        &:hover {
+            color: #fff;
+        }
+
+
+    }
+}
