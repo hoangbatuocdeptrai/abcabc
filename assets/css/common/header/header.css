@@ -19,6 +19,7 @@ header {
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   z-index: 9999;
   box-shadow: none;
+  background: #fff;
 }
 .abc .abcabc {
   max-width: 1400px;
